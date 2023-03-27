@@ -1,0 +1,57 @@
+*{
+    background-color: black;
+    margin: 30px;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+input[type="text"],[type="email"],[type="password"],[type="date"],[type="radio"],[type="checkbox"]{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+    border-bottom:none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 29px;
+    border-bottom: 2px solid white;
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+input[type="text"] :focus,[type="email"]:focus,[type="password"]:focus,[type="date"]:focus,[type="radio"]:focus,[type="button"]:focus{
+    color: white;
+}
+input[type="text"]::placeholder,[type="email"]::placeholder,[type="password"]::placeholder,[type="date"]::placeholder,[type="radio"]::placeholder{
+    font-weight: 100;
+   color: white;
+}
+.radioButtons, .conditionCh{
+    color: white;
+    margin: 0 10px 0 10px;
+
+}
+input[type="radio"],[type="checkbox"]{
+    
+    border: 1px solid white;
+    height: 14px;
+    width: 14px;
+    margin-left: 10px;
+}
+.conditionCh{
+    color: white;
+    margin: 0 10px 0 10px;
+
+}
+input[type="button"]{
+ background-color: white;
+    color: black;
+    padding: 10px;
+}
+

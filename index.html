@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1 class="title">SignUp</h1>
+    <form action>
+    <input type="text" name="FName" placeholder="Full Name" class="formSignUp"><br>
+    <input type="email" name="Email" placeholder="Email" class="formSignUp">
+    <input type="password" name="password" placeholder="password" class="formSignUp">
+    <input type="password" name="Confirm password" placeholder="Confirm password" class="formSignUp">
+    <input type="date" name="date" placeholder="MM/DD/YYYY" class="formSignUp">
+     <input type="radio" class="radioInput" name="radio" value="student">
+   <label for="student" class="radioButtons">Student</label>
+   <input type="radio" class="radioInput" name="radio" value="employee"><!-- giving same name to button allows only one button to be selected.-->
+  <label for="employee" class="radioButtons">Employee</label><br><br>
+<input type="checkbox"  name="conditionCh" value=" I agree to all the Terms and conditions ">
+<label for="conditionCh" class="conditionCh">  I agree to all the Terms and conditions.</label><br>
+<input type="button" value="Sign Up" >
+</form>
+
+</body>
+</html>
